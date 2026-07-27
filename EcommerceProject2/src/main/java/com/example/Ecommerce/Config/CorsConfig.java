@@ -16,7 +16,7 @@ public class CorsConfig {
                 registry.addMapping("/**")
                         .allowedOrigins(
                                 "http://localhost:5173",
-                                "https://your-frontend.vercel.app"
+                                "https:https://ecommerce-frontend-ivory-one.vercel.app"
                         )
                         .allowedMethods("*")
                         .allowedHeaders("*")
